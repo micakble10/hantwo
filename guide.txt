@@ -1,0 +1,21 @@
+vscode - github 연동하기
+
+1. 깃허브 레파지토리 생성
+- 웹에서 알아서 생성
+
+2. 로컬에 대상 프로젝트 구성
+- 원하는 언어를 이용해 알아서 구성
+
+3. vs-code
+- open folder
+- 터미널 이용
+> git init
+> git remote add origin 깃허브_레파지토리_주소
+> git add filename
+> git commit -m "대충 코멘트 쓰는 자리"
+> git push -u origin master
+- 왼쪽 세로모양 메뉴에 보면 히스토리 생김
+
+4. 이후 땡겨 받을 때
+- 레파지토리 생성하고 싶은 폴더에서 cmd 창 열어
+- git clone 깃허브_레파지토리_주소
